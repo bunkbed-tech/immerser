@@ -14,3 +14,14 @@ The psychology of heatmaps and learning streaks helps many people stay consisten
   - If this can somehow hook up to alexandria or the same APIs alexandria uses to populate media, that would be great
 - Generate data dashboards for analyzing time-based habits (such as language acquisition immersion)
 - Add a timer to aide in logging time-based habits
+
+## Useful commands
+
+``` Build project
+bun run tauri dev
+```
+
+## Questions
+
+- Need to ask Tristan about the stuff in Alexandria thats in/not in the
+- instructions for shadcn and tailwind.
