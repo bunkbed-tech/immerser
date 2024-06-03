@@ -1,27 +1,41 @@
-# immerser
+# create-svelte
 
-immerser will build heatmaps for language and general habit acquisition
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
-Gameify your habits (especially language acquisition) by logging immersion time and viewing you daily heatmaps.
+## Creating a project
 
-## Details
+If you're seeing this, you've probably already done this step. Congrats!
 
-The psychology of heatmaps and learning streaks helps many people stay consistent when trying to build new habits.
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-- Create a new habit to instantiate a new heatmap
-- Navigate to the daily to-do screen and check off completed habits to fill the heatmap
-- When selecting immersion, allow the user to specify the immersion material
-  - If this can somehow hook up to alexandria or the same APIs alexandria uses to populate media, that would be great
-- Generate data dashboards for analyzing time-based habits (such as language acquisition immersion)
-- Add a timer to aide in logging time-based habits
-
-## Useful commands
-
-``` Build project
-bun run tauri dev
+# create a new project in my-app
+npm create svelte@latest my-app
 ```
 
-## Questions
+## Developing
 
-- Need to ask Tristan about the stuff in Alexandria thats in/not in the
-- instructions for shadcn and tailwind.
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+## 
+bunx tauri dev
